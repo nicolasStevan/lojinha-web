@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(235, 132, 15, 0.1);
+  padding-top: 60px; /* Espaço para o header fixo */
+
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(235, 132, 15, 0.1);
+  border-bottom: 1px solid #ccc;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #ff8800;
+}
+
+header nav {
+  display: flex;
+  gap: 10px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #ff8800;
+}
+
+header nav ul li a:hover {
+  color: #f00;
+}
+
+button {
+  cursor: pointer;
+}
+
+main{
+    padding: 20px;
+    flex: 1;
+}
+
+main h1{
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label{
+    font-size: 14px;
+}
+
+form input{
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+form button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff8800;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    text-align: center;
+}
+footer {
+  background-color: #e98e06;
+  padding: 10px 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  color: #fff;
+}
